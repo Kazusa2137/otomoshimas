@@ -15,11 +15,11 @@ This build guide is Japanese If you do not understand Japanese, please refer to 
 組立工程の中には、ハンダ付けや細いねじを締める工程があります。
 あらかじめ必要な工具（後述）を用意した上で、組立を始めてください。
 
-キット内容物の不足や不明点等ありましたら、以下連絡先のいずれかにご連絡ください。
+キット内容物の不足や不明点等ありましたら、以下連絡先のご連絡ください。
 
 mail: heshajingping@gmail.com
 
-![kazu-laser](https://github.com/uruzunyaa/kazu-laser/blob/main/image/DoneBuild.jpg)
+![otomoshimas](https://github.com/Kazusa2137/otomoshimas/blob/main/image/DSC00811.jpg)
 
 ## Parts
 
@@ -78,48 +78,13 @@ mail: heshajingping@gmail.com
 
 この線を、基板の四角のマークに合わせます。
 
-![diode](https://github.com/uruzunyaa/kazu-laser/blob/main/image/diode.png)
+![diode](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7237.jpg)
 
 
 はんだ付け出来たら、はみ出ている足をニッパーで切ります。
 
-### レーザーモジュールを取り付ける
+![nipper](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7245.jpg)
 
-次に、レーザーモジュールを取り付けます。
-
-場所は、D6 と書かれた場所です。
-
-まず、導線のカバーを少しはがします。 赤と黒のカバーを、はんだ付け出来るように外します。
-
-**この時、あまり長く切りすぎないようにしてください。** 失敗した時に、取り返しがつかなくなります。
-
-手順は以下を参考にしてください。
-
-1. ニッパー等を用いて中の導線を切らないよう、切れ込みを入れます。
-1. 銅線の皮を抑えながら引っ張ってください。**※レーザー部分を抑えないでください。銅線が根本から外れます。**
-1. カバーを剥くのに失敗したら、細かく切れ込みを入れながら同じ手順を繰り返しながら再チャレンジしましょう。
-1. 成功したら、飛び出している足を切ります。
-
-カバーを剥いたレーザーモジュール
-
-![lasercut](https://github.com/uruzunyaa/kazu-laser/blob/main/image/lasercut.jpg)
-
-カバーを外せたら、はんだ付けをします。**この部品にも向きがあります。**
-
-赤の部分を**＋**、黒の部分を **ー**にはんだ付けします。
-
-
-### レーザーモジュールを固定する
-
-キットに同封されている銀のワイヤーを使用し、レーザーモジュールを固定します。
-
-レーザーモジュールの溝に、2周程度硬く巻き付けます。レーザーモジュールが安定していたら、はんだ付けをして固定します。
-
-残っているワイヤーを切ります。
-
-画像は他の部品も付いていますが、レーザーモジュールが画像のような状態となっていれば成功です。
-
-![laser](https://github.com/uruzunyaa/kazu-laser/blob/main/image/laser.jpg)
 
 ### リセットスイッチを取り付ける
 
@@ -129,64 +94,11 @@ mail: heshajingping@gmail.com
 
 場所は D6 のすぐ下の W_Pus のように書かれた場所です。
 
-### コンデンサを取り付ける
-
-![condenser](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/condenser.png)
-
-コンデンサを向きに注意しながら取り付け、横に倒します。※倒さずに付けると、後々付けるボトムプレートに衝突します。
-
-場所は C1 です。
-
-**コンデンサには向きがあります。** 足の長さが長い方を **＋** 短い方を **ー** です。
-
-はんだ付けしたら、足を切ります。
-
-### DCDCコンバーターを取り付ける
-
-![DCDC](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/DCDC.png)
-
-**この部品も向きに注意してください。**
-
-丸みを帯びた部分を基板の丸に合わせて、向きを合わせます。
-
-場所はC1のすぐ下にある、 LX VOUT GND と書かれた場所です。 
-
-向きを合わせたら、コンデンサと同様に寝かせます。
-
-はんだ付けし、足を切ります。
-
-### インダクタを取り付ける
-
-![inductor](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/inductor.png)
-
-向きはありません。はんだ付けをして、足を切ります。
-
-場所は L1 です。
 
 ### 途中確認
 ここまで作業し、以下のような状態になっていれば大丈夫です。
 
 ![DCDC,indoctor,condenser](https://github.com/uruzunyaa/kazu-laser/blob/main/image/condenser%2CDCDC%2Cinductor.png)
-
-
-### スライドスイッチを取り付ける
-
-![resetswitch](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/resetswitch.png)
-
-向きはありません。はんだ付けをして、足を切ります。
-
-スライドスイッチは表側の ON OFF と書かれた場所です。
-
-
-### スタビライザーを取り付ける
-
-![stabilizer](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/stabilizer.png)
-
-下にスタビライザーのワイヤーが来るよう、しっかりと押し込みます。ここで、横から浮いていないか確認します。
-
-ここで浮いていると、キーの動作が悪くなります。
-
-![donestabilizer](https://github.com/uruzunyaa/kazu-laser/blob/main/image/toritukestabilizer.png)
 
 ### キースイッチを取り付ける
 まず、スイッチプレートに全てのキーをはめ込みます。
