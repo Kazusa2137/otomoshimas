@@ -85,34 +85,40 @@ mail: heshajingping@gmail.com
 
 ![nipper](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7245.jpg)
 
+### ホットスワップを取り付ける
+次にホットスワップを取り付けましょう。ホットスワップは表面に取り付ける形になりますので、先に盛りはんだをすると取り付けやすいです↓
+
+![hotswap_morihanda](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7250.jpg)
+
+盛りはんだをした後、ホットスワップを取り付けます。
+
+![hotswap](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7251.jpg)
+
+### 途中経過
+![totyu](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7252.jpg)
 
 ### リセットスイッチを取り付ける
 
-![resetswitch](https://github.com/uruzunyaa/kazu-laser/blob/main/image/list/resetswitch.png)
+![resetswitch](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7253.jpg)
 
 リセットスイッチをはんだ付けします。この部品に向きはありません。
 
-場所は D6 のすぐ下の W_Pus のように書かれた場所です。
-
-
-### 途中確認
-ここまで作業し、以下のような状態になっていれば大丈夫です。
-
-![DCDC,indoctor,condenser](https://github.com/uruzunyaa/kazu-laser/blob/main/image/condenser%2CDCDC%2Cinductor.png)
 
 ### キースイッチを取り付ける
-まず、スイッチプレートに全てのキーをはめ込みます。
-
-その後、PCBミドルプレートに取り付け、はんだ付けをします。
+まず、スイッチプレートとPCBミドルプレートを重ねてキーをはめ込みます。
 
 スイッチプレートにはめ込む時から、基板の穴を見て、向きに注意してください。
 
-![switchplate](https://github.com/uruzunyaa/kazu-laser/blob/main/image/switchplate.png)
+四角→外周→中の順にはめ込むとやりやすいと思います。
 
-### 電池ホルダーを取り付ける
-**電池ホルダーの向きに注意してください。** 左が**＋** 右が **－** です。
+![switchplate](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7254.jpg)
+![switchplate](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7255.jpg)
+![switchplate](https://github.com/Kazusa2137/otomoshimas/blob/main/image/IMG_7256.jpg)
 
-### BLE Micro proを取り付ける
+このキットはホットスワップなので、あとでスイッチを取り替えることができます。
+
+
+### Promicro
 コンスルーを画像のように、金の点の部分がBLE側になるような向きで差し込みます。
 
 BLEへコンスルーの取り付けが出来たら、そのまま基盤にも差し込みましょう。
